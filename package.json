@@ -1,0 +1,26 @@
+{
+  "name": "foundation-kit",
+  "version": "1.0.0",
+  "description": "A Foundation develop and deploy kit for concedra GmbH",
+  "main": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concedra/foundation-kit.git"
+  },
+  "keywords": [
+    "concedra GmbH",
+    "concedra",
+    "Foundation",
+    "Starterkit"
+  ],
+  "author": "Igor Besel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concedra/foundation-kit/issues"
+  },
+  "scripts": {
+    "dev": "cd $(ls -d */|head -n 1) && foundation watch",
+    "update": "cd $(ls -d */|head -n 1) && foundation update"
+  },
+  "homepage": "https://github.com/concedra/foundation-kit#readme"
+}

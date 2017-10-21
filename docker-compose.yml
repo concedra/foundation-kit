@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    cli:
+        image: morenstrat/foundation-cli:ubuntu-latest
+        user: "33:33"
+        volumes:
+            - .:/var/www
+        working_dir: /var/www
+        command: "npm run dev"
