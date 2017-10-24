@@ -12,7 +12,7 @@ You'll need the following software installed to get started.
 
 ### New Project
 
-To create a new project and follow the instruction of [foundation-cli](https://github.com/zurb/foundation-cli)
+To create a new project follow the instruction of [foundation-cli](https://github.com/zurb/foundation-cli)
 
     $ docker-compose run cli foundation new app
     
