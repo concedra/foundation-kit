@@ -33,4 +33,4 @@ Some things plan for future ...
 * more than one project (dynamic parameter)
 * deploy integration
 * static server
-* live relaod
+* live reload
