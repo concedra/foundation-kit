@@ -19,6 +19,7 @@
     "url": "https://github.com/concedra/foundation-kit/issues"
   },
   "scripts": {
+    "start": "cd $(ls -d */|head -n 1) && npm start",
     "dev": "cd $(ls -d */|head -n 1) && foundation watch",
     "update": "cd $(ls -d */|head -n 1) && foundation update"
   },
